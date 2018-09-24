@@ -1,0 +1,60 @@
+{
+  "name": "university-planner",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "2.1.4",
+    "angular": "1.6.6",
+    "angular-cookies": "1.6.6",
+    "angular-i18n": "1.6.6",
+    "angular-messages": "1.6.6",
+    "angular-resource": "1.6.6",
+    "angular-sanitize": "1.6.6",
+    "lodash": "^4.13.1",
+    "angular-validation-match": "~1.5.2",
+    "angular-ui-calendar": "https://gitlab.cineca.it/up-public/angular-ui-calendar.git",
+    "angular-ui-router": "0.3.2",
+    "angular-ui-grid": "^3.1.1",
+    "angular-dragdrop": "^1.0.13",
+    "angular-dynamic-locale": "^0.1.32",
+    "material-design-icons": "^3.0.1",
+    "angular-spectrum-colorpicker": "^1.4.5",
+    "crypto-js": "^3.1.9",
+    "fullcalendar": "~3.5.1",
+    "angular-material": "1.1.8",
+    "fullcalendar-scheduler": "1.7.1",
+    "angularjs-slider": "^6.4.0",
+    "ng-letter-avatar": "ngletteravatar#^4.0.4",
+    "angular-material-data-table": "^0.10.10",
+    "angular-toastr": "^2.1.1",
+    "angular-ui-sortable": "~0.14.0"
+  },
+  "resolutions": {
+    "angular": "1.6.6",
+    "fullcalendar": "~3.5.1"
+  },
+  "overrides": {
+    "fullcalendar": {
+      "main": [
+        "dist/fullcalendar.js",
+        "dist/fullcalendar.css",
+        "dist/locale-all.js"
+      ]
+    },
+    "material-design-icons": {
+      "main": [
+        "iconfont/material-icons.css"
+      ]
+    },
+    "angular-ui-grid": {
+      "main": [
+        "ui-grid.js",
+        "ui-grid.css"
+      ]
+    },
+    "crypto-js": {
+      "main": [
+        "crypto-js.js"
+      ]
+    }
+  }
+}
